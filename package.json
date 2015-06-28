@@ -1,0 +1,19 @@
+{
+  "name": "scss-lint-loader",
+  "version": "1.0.0",
+  "description": "scss-lint loader for Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijahmanor/scss-lint-loader.git"
+  },
+  "author": "Elijah Manor <elijah.manor+npm@gmail.com> (http://elijahmanor.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elijahmanor/scss-lint-loader/issues"
+  },
+  "homepage": "https://github.com/elijahmanor/scss-lint-loader#readme"
+}
