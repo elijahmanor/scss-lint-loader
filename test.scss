@@ -1,0 +1,11 @@
+@import '_base';
+
+html, body { color: red; }
+
+ul {
+  li {
+    div {
+      a { color: blue; }
+    }
+  }
+}

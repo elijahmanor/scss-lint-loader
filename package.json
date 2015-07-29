@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/elijahmanor/scss-lint-loader/issues"
   },
-  "homepage": "https://github.com/elijahmanor/scss-lint-loader#readme"
+  "homepage": "https://github.com/elijahmanor/scss-lint-loader#readme",
+  "dependencies": {
+    "broccoli-scss-lint": "0.0.4",
+    "loader-utils": "^0.2.10",
+    "object-assign": "^3.0.0",
+    "scsslint": "0.0.3"
+  }
 }

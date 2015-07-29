@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+  <file name="test.scss">
+    <issue linter="SingleLinePerSelector" line="1" column="1" length="1" severity="warning" reason="Each selector in a comma sequence should be on its own line" />
+    <issue linter="ColorVariable" line="1" column="21" length="3" severity="warning" reason="Color literals like `red` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <issue linter="ColorKeyword" line="1" column="21" length="3" severity="warning" reason="Color `red` should be written in hexadecimal form as `#ff0000`" />
+  </file>
+</lint>
