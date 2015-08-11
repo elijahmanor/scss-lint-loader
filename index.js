@@ -7,9 +7,9 @@ var assign = require('object-assign');
 function lint(input, options, webpack) {
   options.format = SCSSLint.format(options.format);
   SCSSLint.validate(options);
-  var success = SCSSLint.lint('', webpack.resourcePath, options);
+  var isError = SCSSLint.lint('', webpack.resourcePath, options);
 
-  if (!success) {
+  if (isError) {
     webpack.emitError('Module failed because of a scss-lint error!');
     /*
     if (options.failOnError) {
@@ -31,11 +31,11 @@ function lint(input, options, webpack) {
 module.exports = function(input) {
   var options = assign(
     {
-      configFile: './.scss-lint.yml',
+      config: '.scss-lint.yml',
       failOnError: true,
       failWarning: true,
-      format: ['default', 'xml'], //'default',
-      reportFile: './scss-lint.xml'
+      format: ['default'],
+      reportFile: 'scss-lint.xml'
     },
     loaderUtils.parseQuery(this.query)
   );
