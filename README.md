@@ -1,5 +1,7 @@
 # scss-lint-loader
 
+[scss-lint](https://github.com/brigade/scss-lint) loader for webpack
+
 ## Install
 
 ```bash
